@@ -1,0 +1,62 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "dcfd8782575fe376d485c631e93a2957",
+    "packages": [
+        {
+            "name": "zavy86/composer-package-test",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Zavy86/composer-package-test.git",
+                "reference": "2f5ddde7a3b2bced24a524611a78577864ef4dab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Zavy86/composer-package-test/zipball/2f5ddde7a3b2bced24a524611a78577864ef4dab",
+                "reference": "2f5ddde7a3b2bced24a524611a78577864ef4dab",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zavy86\\ComposerPackageTest\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Manuel Zavatta",
+                    "email": "manuel.zavatta@gmail.com"
+                }
+            ],
+            "description": "My first composer test package",
+            "homepage": "https://github.com/Zavy86/composer-package-test",
+            "support": {
+                "issues": "https://github.com/Zavy86/composer-package-test/issues",
+                "source": "https://github.com/Zavy86/composer-package-test/tree/1.0.0"
+            },
+            "time": "2022-02-03T16:58:01+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.1"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
